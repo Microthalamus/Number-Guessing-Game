@@ -48,7 +48,7 @@ namespace Number_Guessing_Game
             this.label1.Size = new System.Drawing.Size(662, 36);
             this.label1.TabIndex = 0;
             this.label1.Text = "Think Of A Number Between 1 and 10";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
+          
             // 
             // startbut
             // 
@@ -76,7 +76,7 @@ namespace Number_Guessing_Game
             this.numbox.Name = "numbox";
             this.numbox.Size = new System.Drawing.Size(100, 23);
             this.numbox.TabIndex = 3;
-            this.numbox.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            this.numbox.TextChanged += new System.EventHandler(this.lowbut_Click);
             // 
             // lowbut
             // 
